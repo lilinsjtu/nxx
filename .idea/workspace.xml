@@ -2,355 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bceced61-5091-4779-9683-56c8cc7fa75a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pics/bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/css/chosen-sprite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pics/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/img/glyphicons-halflings-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/img/glyphicons-halflings.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/img/icon-no.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/img/icon-yes.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/img/icon_addlink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/img/icon_changelink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/img/icon_deletelink.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/ar/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/ca/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/cs_CZ/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/cy/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/de/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/de_CH/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/el/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/en/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/es/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/et/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/fa/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/fr/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/it/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/ja/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/ko/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/nb/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/nl/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/pl/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/pt/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/ru/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/uk/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/zh/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/zh_TW/LC_MESSAGES/wtforms.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/handler/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/dominate/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/ext/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_cache/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_paginate/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_wtf/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_wtf/recaptcha/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markupsafe/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/visitor/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/csrf/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/appengine/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/csrf/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/dateutil/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/django/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/django/templatetags/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/i18n/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/sqlalchemy/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/fields/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/widgets/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtfpeewee/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/__main__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/__main__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/__version__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/_bashcomplete.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/_compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/_compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_cache/_compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/_compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_wtf/_compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markupsafe/_compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtfpeewee/_compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markupsafe/_constants.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/_formhelpers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markupsafe/_native.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markupsafe/_speedups.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/_termui_impl.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/_textwrap.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/_unicodefun.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/dominate/_version.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/_winconsole.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/abbr.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/models/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/css/admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/admin.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/js/admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/tests/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/admin_views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/admonition.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/js/ajax-chosen.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/article.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/attr_list.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/tests/auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/auth_views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_cache/backends.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/templates/bootstrap/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/models/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/panels/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/tests/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/tests/base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/models/base_filters.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/models/base_forms.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/basemodel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/blockparser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/blockprocessors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/blog_views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/blueprints.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/js/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/css/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scripts/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/css/bootstrap.min.responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/css/chosen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/js/chosen.jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/cli.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/codehilite.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/compat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/core.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/csrf/core.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/fields/core.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/widgets/core.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_wtf/csrf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/csrf_error.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/ctx.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/css/datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/db.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/appengine/db.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/debughelpers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/decorators.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/def_list.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/panels/default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/models/delete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/dominate/document.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/dominate/dom1core.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/dominate/dom_tag.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/models/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/js/events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/exceptions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/exceptions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/models/export.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/exthook.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/extra.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/fenced_code.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_wtf/recaptcha/fields.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/appengine/fields.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/csrf/fields.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/dateutil/fields.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/django/fields.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/sqlalchemy/fields.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtfpeewee/fields.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_wtf/file.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/includes/filter_dropdown.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/includes/filter_widgets.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/filters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/templates/bootstrap/fixes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_login.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/footnotes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_wtf/form.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/form.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/csrf/form.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/i18n/form.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/includes/form_raw_id.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/formatting.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/macros/forms.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/globals.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/globals.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/templates/bootstrap/google.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/headerid.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/helpers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_wtf/html5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/fields/html5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/widgets/html5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_wtf/i18n.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/i18n.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/django/i18n.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/handler/image_handler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/index.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/models/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.wsgi" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/inlinepatterns.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/itsdangerous.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_cache/jinja2ext.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scripts/jquery-1.10.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/json.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/logging.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/login-bootstrap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/auth/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/handler/login_handler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/meta.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/meta.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/static/js/modernizr-1.5.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/mood.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/nav.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/appengine/ndb.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/nl2br.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/static/js/npm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/nxx.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nxxapp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/odict.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/django/orm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/sqlalchemy/orm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtfpeewee/orm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/page_not_found.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/admin/page_not_found.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/templates/bootstrap/pagination.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/templates/admin/includes/pagination.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/parser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/peewee.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/photo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/photo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/postprocessors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/preprocessors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/rest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/tests/rest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/sane_lists.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/serializer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/tests/serializer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/serializers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/csrf/session.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/csrf/session.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/sessions.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setting.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/signals.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/signup-bootstrap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/signup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/fields/simple.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/smart_strong.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/smarty.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/tables.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/dominate/tags.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/templating.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/termui.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/tests/test_app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/tests/test_config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/testing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/testing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markupsafe/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtfpeewee/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/styles/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/theme.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/toc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/travel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/treeprocessors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/types.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/user.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/dominate/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/templates/bootstrap/utils.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/click/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_peewee/tests/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/i18n/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_wtf/recaptcha/validators.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/validators.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/scripts/vue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_wtf/recaptcha/widgets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/markdown/extensions/wikilinks.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask/wrappers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/flask_bootstrap/templates/bootstrap/wtf.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/ar/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/ca/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/cs_CZ/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/cy/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/de/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/de_CH/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/el/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/en/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/es/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/et/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/fa/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/fr/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/it/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/ja/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/ko/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/nb/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/nl/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/pl/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/pt/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/ru/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/uk/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/zh/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/zh_TW/LC_MESSAGES/wtforms.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/locale/wtforms.pot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/site-packages/wtforms/ext/django/templatetags/wtforms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nxx.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -390,8 +42,8 @@
       <file leaf-file-name="admin_views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view/admin_views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2953523" vertical-offset="24" max-vertical-offset="714">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.11694153" vertical-offset="24" max-vertical-offset="714">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -761,6 +413,11 @@
       <created>1499089188433</created>
       <updated>1499089188433</updated>
     </task>
+    <task id="LOCAL-00001" summary="init nxx app">
+      <created>1499093957018</created>
+      <updated>1499093957018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -787,6 +444,7 @@
     <frame x="0" y="23" width="1440" height="813" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -815,6 +473,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="init nxx app" />
+    <option name="LAST_COMMIT_MESSAGE" value="init nxx app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -917,8 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/admin_views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2953523" vertical-offset="24" max-vertical-offset="714">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.11694153" vertical-offset="24" max-vertical-offset="714">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
