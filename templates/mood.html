@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% from "_formhelpers.html" import render_field %}
+
+{% block css %}
+<link rel="stylesheet" href="{{url_for('static', filename='styles/index.css')}}">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    {% if articles and articles.count()>0 %}
+    <div class="row">
+        <div class="col-md-12">
+            <h3>
+                Recently Updated
+            </h3>
+
+        </div>
+        <div class="col-md-12">
+            {{ pagination.links }}
+        </div>
+        {% for a in articles %}
+        <div class="col-md-12">
+            <div class="thumbnail" style="background-color: white;padding: 10px;margin-bottom: 30px;">
+                <h3>
+                    {{loop.index}}. {{a.title}}
+                </h3>
+
+                <p>
+                    {{a.content|safe}}
+                </p>
+                <!--<span class="label label-warning">{{a.article_type}}</span>-->
+                <!--<span class="label label-info">{{a.author}}</span>-->
+                <!--<span class="label label-success">{{a.create_time}}</span>-->
+                <a class="btn btn-warning btn-xs">{{a.article_type}}</a>
+                <a class="btn btn-success btn-xs">{{a.create_time}}</a>
+                <a class="btn btn-info btn-xs">{{a.author}}</a>
+                <a class="btn btn-danger btn-xs" href="{{url_for('blog.delete_article', article_id = a.id)}}">Delete</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <!--{{ pagination.info }}-->
+    {{ pagination.links }}
+    {% endif %}
+
+    <br>
+    {% if current_user and 'user_id' in session %}
+    <div class="row">
+        <div class="col-md-12">
+            <h3>
+                Remember your story
+            </h3>
+
+            <form action="/mood" method="post" name="form">
+                {{ form.hidden_tag() }}
+                <!--{{ form.csrf_token }}-->
+                {{wtf.form_field(form.article_title)}}
+                {{wtf.form_field(form.article_content)}}
+                {{wtf.form_field(form.article_type)}}
+                {{wtf.form_field(form.submit)}}
+            </form>
+        </div>
+    </div>
+    {% else %}
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center">
+                Signup first, then new world will open.<br><a href="/signup">Signup</a> | <a
+                    href="/login">Login</a>
+            </h3>
+        </div>
+    </div>
+    {% endif %}
+
+</div>
+
+<script>
+    function delete_article() {
+        confirm('Really delete?');
+    }
+
+</script>
+<!-- /.container -->
+{% endblock %}

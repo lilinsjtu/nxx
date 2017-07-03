@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% from "_formhelpers.html" import render_field %}
+
+{% block content %}
+<div class="container">
+    <!--<div class="container-fluid">-->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group  has-error required"><label class="control-label" for="email">{{error}}</label>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <form action="/login" method="post" name="form">
+                {{ form.hidden_tag() }}
+                {{wtf.form_field(form.email)}}
+                {{wtf.form_field(form.password)}}
+                {{wtf.form_field(form.remember_me)}}
+                {{wtf.form_field(form.submit)}}
+                <!--{{ render_field(form.email) }}-->
+                <!--{{ render_field(form.password) }}-->
+            </form>
+        </div>
+
+    </div>
+</div>
+</div>
+<!-- /.container -->
+
+{% endblock %}
+
+

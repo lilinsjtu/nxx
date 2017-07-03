@@ -1,0 +1,113 @@
+<!--<!DOCTYPE html>-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <!--<link href="../static/pics/favicon.ico" rel="shortcut icon">-->
+    <link href="{{url_for('static', filename='pics/favicon.ico')}}" rel="shortcut icon">
+    {% if title %}
+    <title>{{title}}</title>
+    {% else %}
+    <title>某某-文艺青年的幸福生活</title>
+    {% endif %}
+    <!-- Bootstrap core CSS -->
+    <!--<link rel="stylesheet" href="../static/styles/bootstrap.min.css">-->
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/bootstrap.min.css')}}">
+
+    <!-- Custom styles for this template -->
+    <!--<link rel="stylesheet" href="../static/styles/style.css">-->
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/style.css')}}">
+    <!-- Custom styles for this template -->
+    {% block css %}{% endblock %}
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse"
+                    class="navbar-toggle collapsed" type="button">
+                <span class="sr-only">目录</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="{{ url_for('blog.index') }}" class="navbar-brand adjust">某某－文艺青年的幸福生活</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+
+            <ul class="nav navbar-nav">
+                <li><a href="{{ url_for('blog.index') }}">主页</a></li>
+                <li><a href="{{ url_for('blog.mood') }}">心情</a></li>
+                <!--<li><a href="{{ url_for('blog.photo') }}">瞬间</a></li>-->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                {% if current_user.is_admin %}
+                <li><a href="{{ url_for('admin.users') }}">管理面板</a></li>
+                {% endif %}
+                {% if current_user and session['user_id'] %}
+                <li><a href="{{ url_for('blog.index') }}">{{current_user.email}}</a></li>
+                <li><a href="{{ url_for('auth.logout') }}">注销</a></li>
+                {% else %}
+                <li><a href="{{ url_for('auth.signup') }}">注册</a></li>
+                <li><a href="{{ url_for('auth.login') }}">登录</a></li>
+                {% endif%}
+                <!--
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Dropdown <b
+                            class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </li>
+                -->
+            </ul>
+
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="{{url_for('static', filename='scripts/jquery-1.10.2.min.js')}}"></script>
+<script src="{{url_for('static', filename='scripts/bootstrap.min.js')}}"></script>
+{% block scripts %}{% endblock %}
+
+{% block content %}{% endblock %}
+
+
+</body>
+
+<footer class="footer">
+    <div class="container">
+        <p>Designed and built with all the love in the world by <a href="https://www.zhihu.com/people/lilinsjtu"
+                                                                   target="_blank">@zero</a></p>
+        <!--<p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License-->
+            <!--v2.0</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>-->
+        <!--<p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a-->
+                <!--href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>-->
+        <!--<ul class="footer-links">-->
+            <!--<li><a href="http://blog.getbootstrap.com">Blog</a></li>-->
+            <!--<li class="muted">·</li>-->
+            <!--<li><a href="https://github.com/twbs/bootstrap/issues?state=open">Issues</a></li>-->
+            <!--<li class="muted">·</li>-->
+            <!--<li><a href="https://github.com/twbs/bootstrap/releases">Changelog</a></li>-->
+        <!--</ul>-->
+    </div>
+</footer>
+</html>

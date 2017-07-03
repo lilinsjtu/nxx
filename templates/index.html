@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block css %}
+<link rel="stylesheet" href="{{url_for('static', filename='styles/index.css')}}">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="jumbotron">
+                <h2>
+                    Hello, world!
+                </h2>
+                <p>
+                    2015-06-18
+                </p>
+                <p>
+                    2016-04-09
+                </p>
+                <p>
+                    {{now}}
+                </p>
+                <p>
+                    Forever
+                </p>
+                <!--<p>-->
+                <!--<a class="btn btn-primary btn-large" href="#">Learn more</a>-->
+                <!--</p>-->
+            </div>
+        </div>
+    </div>
+    {% if current_user and 'user_id' in session%}
+
+    {% for k in keys %}
+    <div class="col-md-4">
+        <div class="thumbnail">
+
+            <p><a id="modal-{{k}}" href="#modal-container-{{k}}"
+                  role="button" class="thumbnail btn" data-toggle="modal"><img alt="婚纱照" src="{{dict[k]}}" href=""/></a></p>
+            <!--<div class="caption" contenteditable="true">-->
+                <!--<h3>Thumbnail label</h3>-->
+                <!--<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at-->
+                    <!--eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>-->
+                <!--<p><a class="btn btn-primary" href="#">Action</a></p>-->
+                <!--<p><a id="modal-1" href="#modal-container-1"-->
+                <!--role="button" class="btn" data-toggle="modal">Launch demo modal</a></p>-->
+            <!--</div>-->
+        </div>
+        <div class="modal fade" id="modal-container-{{k}}" tabindex="-1" role="dialog"
+             aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h4 class="modal-title" id="myModalLabel" contenteditable="true">美好的我们</h4>
+                    </div>
+                    <div class="modal-body" contenteditable="true">
+                        <div class="thumbnail">
+                            <img alt="婚纱照" src="{{dict[k]}}" href=""/>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"
+                                contenteditable="true">Close
+                        </button>
+                        <!--<button type="button" class="btn btn-primary" contenteditable="true">Save changes-->
+                        <!--</button>-->
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div>
+    </div>
+    {% endfor %}
+    {% else %}
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="text-center">
+                Signup first, then new world will open.<br><a href="/signup">Signup</a> | <a
+                    href="/login">Login</a>
+            </h3>
+        </div>
+    </div>
+    {% endif %}
+
+</div>
+{% endblock %}

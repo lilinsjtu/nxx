@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <!--<div class="container-fluid">-->
+    <div class="row">
+        <div class="col-md-12">
+            <form action="/users" method="post" name="form">
+                <div class="form-group">
+                    <label for="email">
+                        工作邮件
+                    </label>
+                    <input type="text" class="form-control" id="email" name="email"/>
+                    <label for="email-info" id="email-info">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="password1">
+                        密码
+                    </label>
+                    <input type="password" class="form-control" id="password1" name="password1"/>
+                </div>
+                <div class="form-group">
+                    <label for="password2">
+                        确认新密码
+                    </label>
+                    <input type="password" class="form-control" id="password2" name="password2"/>
+                </div>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="checkbox"/> Remember me
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-default"  onsubmit="javascript:return check()">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<!-- /.container -->
+
+<script>
+    $('document').ready(function () {
+                $('#email').blur(function () {
+                    //alert('email:' + $('#email')[0].value);
+                    $.ajax({
+                        url: '/check',
+                        type: 'POST',
+                        data: {email: document.getElementById('email').value},
+                        success: function (data) {
+                            handle_data(data);
+                        }
+                    });
+                });
+            }
+    );
+
+    function handle_data(data) {
+        if (data == 'exist') {
+            $('#email-info')[0].innerHTML = '邮箱已经存在';
+        } else if (data == 'avaliable') {
+            $('#email-info')[0].innerHTML = '邮箱可以使用';
+        } else if (data == 'reinput') {
+            $('#email-info')[0].innerHTML = '请输入邮箱';
+        }
+    }
+
+
+    function check() {
+        if (document.getElementById('email').value != '') {
+            if ($('#email-info')[0].innerHTML == '邮箱可以使用') {
+                $('form').submit();
+                return true;
+            }
+            else {
+                return false
+            }
+        } else {
+            $('#email-info')[0].innerHTML = '请输入邮箱';
+            return false;
+        }
+        return false;
+    }
+</script>
+{% endblock %}
+
+

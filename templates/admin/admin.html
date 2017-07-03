@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block css %}
+<link rel="stylesheet" href="{{url_for('static', filename='styles/bootstrap.min.css')}}">
+{% endblock %}
+
+{% block content %}
+<div class="container">
+
+    <div class="col-md-12">
+
+        <h3>
+            Admin Page
+        </h3>
+        <a href="{{url_for('admin.init')}}" class="btn btn-primary" type="button">DB INIT</a>
+        <a href="{{url_for('admin.users')}}" class="btn btn-primary" type="button">USER LIST</a>
+
+    </div>
+    {% if users and users.count()>0 %}
+    <div class="col-md-12">
+        <h3 contenteditable="true">Registered Users</h3>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>
+                    #
+                </th>
+                <th>
+                    Username
+                </th>
+                <th>
+                    Password
+                </th>
+                <th>
+                    Register Date
+                </th>
+                <th>
+                    Status
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for user in users %}
+            {% if loop.index % 2 == 0 %}
+            <tr class="active">
+                <td>
+                    {{loop.index}}
+                </td>
+                <td>
+                    {{user.email}}
+                </td>
+                <td>
+                    {{user.password}}
+                </td>
+                <td>
+                    {{user.create_time}}
+                </td>
+                <td>
+                    {{user.checked}}
+                </td>
+            </tr>
+            {% else %}
+            <tr class="success">
+                <td>
+                    {{loop.index}}
+                </td>
+                <td>
+                    {{user.email}}
+                </td>
+                <td>
+                    {{user.password}}
+                </td>
+                <td>
+                    {{user.create_time}}
+                </td>
+                <td>
+                    {{user.checked}}
+                </td>
+            </tr>
+            {% endif %}
+
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endif %}
+
+
+</div>
+<!-- /.container -->
+{% endblock %}

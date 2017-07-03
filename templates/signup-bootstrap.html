@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+
+{% block content %}
+<div class="container">
+    <!--<div class="container-fluid">-->
+    <div class="row">
+        <div class="col-md-12">
+            <form action="/signup" method="post" name="form">
+                {{ form.hidden_tag() }}
+
+                {{wtf.form_field(form.email)}}
+                <p class="help-block" for="email-info" id="email-info"></p>
+                {{wtf.form_field(form.password)}}
+
+                {{wtf.form_field(form.confirm)}}
+
+                {{wtf.form_field(form.remember_me)}}
+
+                {{wtf.form_field(form.accept_tos)}}
+
+                {{wtf.form_field(form.submit)}}
+
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+<!-- /.container -->
+<!--
+<script>
+    $('document').ready(function () {
+                $('#email').blur(function () {
+                    //alert('email:' + $('#email')[0].value);
+                    $.ajax({
+                        url: '/check',
+                        type: 'POST',
+                        data: {email: document.getElementById('email').value},
+                        success: function (data) {
+                            handle_data(data);
+                        }
+                    });
+                });
+            }
+    );
+
+    function handle_data(data) {
+        if (data == 'exist') {
+            if ($('p.exist').size() < 1) {
+                $('#email').parent().addClass('has-error');
+                $('#email').after('<p class=\"help-block exist\">Email already exists.</p>');
+            }
+        } else if (data == 'avaliable') {
+            $('#email').parent().removeClass('has-error');
+            $('p.help-block').remove();
+            $('#email').after('<p class=\"help-block\">Email avaliable.</p>');
+        }
+    }
+
+</script>
+-->
+{% endblock %}
+
+

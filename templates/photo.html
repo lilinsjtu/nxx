@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% from "_formhelpers.html" import render_field %}
+
+
+{% block content %}
+<div class="container">
+    {% if photos and photos.count()>0 %}
+    <div class="row">
+        {% for a in photos %}
+        <div class="col-md-4">
+            <div class="thumbnail">
+
+                <img alt="婚纱照" src="{{a.dst_url}}" href=""/>
+
+                <div class="caption" contenteditable="true">
+                    <h3>{{a.title}}</h3>
+                    <p>{{a.description}}</p>
+                    <!--<p><a class="btn btn-primary" href="#">Action</a></p>-->
+                    <span class="label label-success">{{a.create_time}}</span>
+                    <span class="label label-info">{{a.owner.email}}</span>
+                </div>
+            </div>
+
+        </div>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+    <br>
+
+    <div class="row">
+        {% if current_user and 'user_id' in session %}
+        <div class="col-md-12">
+
+            <h3>
+                Remember your moment
+            </h3>
+
+            <form action="/photo" method="post" name="form" enctype="multipart/form-data">
+                {{ form.hidden_tag() }}
+                {{wtf.form_field(form.photo_title)}}
+                {{wtf.form_field(form.photo_description)}}
+                {{wtf.form_field(form.photo_file)}}
+                {{wtf.form_field(form.submit)}}
+            </form>
+        </div>
+        {% else %}
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center">
+                    Signup first, then new world will open.<br><a href="/signup">Signup</a> | <a
+                        href="/login">Login</a>
+                </h3>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+</div>
+
+
+<!-- /.container -->
+{% endblock %}
