@@ -18,8 +18,7 @@ def init():
     Article.create_table(fail_silently=True)
     Photo.create_table(fail_silently=True)
     users = User.select()
-    return render_template('admin/admin.html', users=users, message='Init Success')
-    # return redirect(url_for('admin.users'))
+    return render_template('admin/admin.html', users=users, message='Init Success')ß
 
 
 @admin.route('/')

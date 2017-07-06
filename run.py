@@ -23,5 +23,5 @@ if __name__ == '__main__':
     user.User.create_table(fail_silently=True)
     article.Article.create_table(fail_silently=True)
     photo.Photo.create_table(fail_silently=True)
-    # app.debug = True
+    app.debug = True
     app.run()

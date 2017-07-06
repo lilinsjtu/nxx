@@ -3,7 +3,6 @@ __author__ = 'lilin'
 
 from flask import render_template, request, Response, redirect, url_for, session, flash, send_from_directory, \
     make_response, Blueprint
-# debug switch between web and local
 from nxxapp import app
 import random, time, datetime
 from form.forms import ArticleForm, PhotoForm
@@ -16,6 +15,7 @@ from PIL import Image
 from handler.image_handler import *
 from flask_login import login_required, current_user
 from flask_paginate import Pagination
+from nxxapp import cache
 
 ISOTIMEFORMAT = '%Y-%m-%d %X'
 
@@ -24,7 +24,7 @@ blog = Blueprint('blog', __name__)
 
 @blog.route('/')
 @blog.route('/index')
-# @cache.cached(timeout=60)
+@cache.cached(timeout=60)
 def index():
     imgbaseurl = 'http://o93vhkh84.bkt.clouddn.com'
     prefix = '/image/marry/'
@@ -53,18 +53,18 @@ def index():
 
     for (k, v) in dict.items():
         print "dict[%s] =" % k, v
-    # if request.cookies.get('user') and request.cookies.get('passwd'):
-    #     email = request.cookies.get('user')
-    #     password = request.cookies.get('passwd')
-    #     users = User.select().where(User.email == email, User.password == password)
-    #     if users.count() > 0:
-    #         session['user'] = email
+    if request.cookies.get('email') and request.cookies.get('passwd'):
+        email = request.cookies.get('email')
+        password = request.cookies.get('passwd')
+        users = User.select().where(User.email == email, User.password == password)
+        if users.count() > 0:
+            session['email'] = email
     return render_template('index.html', keys=keys, dict=dict, now=now)
 
 
 @blog.route('/mood', methods=['GET', 'POST'])
-# @cache.cached(timeout=60)
-# @login_required
+@cache.cached(timeout=60)
+@login_required
 def mood():
     form = ArticleForm()
     articles = None
@@ -72,7 +72,6 @@ def mood():
     print form.article_type.type, form.article_type.data
     if request.method == 'POST' and form.validate_on_submit():
         if 'user_id' in session:
-            # current_user = request.form.get('current_user')
             user = User.get(User.id == int(session['user_id']))
             q = Article.insert(owner=user, title=form.article_title.data, content=form.article_content.data,
                                article_type=form.article_type.data,
@@ -84,7 +83,7 @@ def mood():
     pagination = None
     page = 1
     per_page = 10
-    # if 'user_id' in session:
+
     if 'user_id' in session:
         try:
             page = int(request.args.get('page', 1))
@@ -106,7 +105,7 @@ def mood():
 
 
 @blog.route('/photo', methods=['GET', 'POST'])
-# @cache.cached(timeout=60)
+@cache.cached(timeout=60)
 def photo():
     form = PhotoForm()
     photos = None
