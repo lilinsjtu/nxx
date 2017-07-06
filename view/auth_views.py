@@ -103,9 +103,9 @@ def login():
                 login_user(user[0], remember=True)
                 print current_user
                 resp = make_response(redirect(url_for('blog.index')))
-                # session['user'] = email
+                # session['email'] = email
                 # if form.remember_me:
-                #     resp.set_cookie('user', email)
+                #     resp.set_cookie('email', email)
                 #     resp.set_cookie('passwd', password)
                 return resp
             form.email.errors.append('Wrong email or password.')
