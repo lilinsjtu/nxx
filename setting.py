@@ -3,8 +3,7 @@ __author__ = 'zero'
 import os
 # import sae.const
 
-# MYSQL配置信息
-# 本地
+# MYSQLDB配置信息
 # MYSQL_USER = 'root'
 # MYSQL_PASS = 'Dtt123456'
 # MYSQL_HOST_M = '127.0.0.1'

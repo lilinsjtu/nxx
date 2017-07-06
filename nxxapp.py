@@ -36,11 +36,11 @@ db = Database(app)
 # # MySQLDatabase
 @app.before_request
 def before_request():
-    # MySQLdb
+    # MySQLdb way
     # g.db = MySQLdb.connect(setting.MYSQL_HOST_M, setting.MYSQL_USER, setting.MYSQL_PASS,
     #                        setting.MYSQL_DB, port=int(setting.MYSQL_PORT), charset='utf8')
 
-    # flask-peewee
+    # flask-peewee way
     db.connect_db()
 
 

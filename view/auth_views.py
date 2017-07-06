@@ -13,7 +13,7 @@ auth = Blueprint('auth', __name__)
 
 @login_manager.user_loader
 def load_user(user_id):
-    print user_id
+    print "user_id", user_id
     user = User.get(User.id == int(user_id))
     return user
 
@@ -32,10 +32,10 @@ def signup():
                 user = User.select().where(User.email == email, User.password == password)
                 login_user(user[0], remember=True)
                 resp = make_response(redirect(url_for('blog.index')))
-                # session['user'] = email
-                # if form.remember_me:
-                #     resp.set_cookie('user', email)
-                #     resp.set_cookie('passwd', password)
+                session['email'] = email
+                if form.remember_me is True:
+                    resp.set_cookie('email', email)
+                    resp.set_cookie('password', password)
                 return resp
         if 'email' not in form.errors:
             form.errors['email'] = ['Email already exists.']
@@ -79,46 +79,31 @@ def check_login(email, password):
 @auth.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
-
-    if 'user_id' not in session:
-
-        # print request.form.get('email')
-        # print request.form.get('password')
-        # email = request.form.get('email')
-        # password = request.form.get('password')
-        # if request.method == 'POST' and check_login(email, password):
-        #     user = User.select().where(User.email == email, User.password == password)
-        #     login_user(user[0], remember=True)
-        #     return redirect(url_for('blog.index'))
-
-        # form.validate_on_submit屏蔽了直接post username和password模拟登录的可能
-        if request.method == 'POST' and form.validate_on_submit():
-            print form.email.data, form.password.data, form.remember_me.data
-            if check_login(form.email.data, form.password.data):
-                email = form.email.data
-                password = form.password.data
-                user = User.select().where(User.email == email, User.password == password)
-                print user, user[0]
-                print current_user
-                login_user(user[0], remember=True)
-                print current_user
-                resp = make_response(redirect(url_for('blog.index')))
-                # session['email'] = email
-                # if form.remember_me:
-                #     resp.set_cookie('email', email)
-                #     resp.set_cookie('passwd', password)
-                return resp
-            form.email.errors.append('Wrong email or password.')
-            print form.email.errors
-            # error = 'Wrong email or password.'
-        return render_template('login-bootstrap.html', form=form)
-    return redirect(url_for('blog.index'))
+    # form.validate_on_submit屏蔽了直接post username和password模拟登录的可能
+    if request.method == 'POST' and form.validate_on_submit():
+        print form.email.data, form.password.data, form.remember_me.data
+        if check_login(form.email.data, form.password.data):
+            email = form.email.data
+            password = form.password.data
+            user = User.select().where(User.email == email, User.password == password)
+            print "current_user before login_user:", current_user
+            login_user(user[0], remember=True)
+            print "current_user after login_user:", current_user
+            resp = make_response(redirect(url_for('blog.index')))
+            # session['email'] = email
+            if form.remember_me is True:
+                resp.set_cookie('email', email)
+                resp.set_cookie('password', password)
+            return resp
+        form.email.errors.append('Wrong email or password.')
+        print form.email.errors
+    return render_template('login-bootstrap.html', form=form)
 
 
 @auth.route('/logout', methods=['GET', 'POST'])
 def logout():
-    print current_user
+    print "current_user before logout_user:", current_user
     logout_user()
-    print current_user
+    print "current_user after logout_user:", current_user
     resp = make_response(redirect(url_for('auth.login')))
     return resp

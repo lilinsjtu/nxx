@@ -53,9 +53,9 @@ def index():
 
     for (k, v) in dict.items():
         print "dict[%s] =" % k, v
-    if request.cookies.get('email') and request.cookies.get('passwd'):
+    if request.cookies.get('email') and request.cookies.get('password'):
         email = request.cookies.get('email')
-        password = request.cookies.get('passwd')
+        password = request.cookies.get('password')
         users = User.select().where(User.email == email, User.password == password)
         if users.count() > 0:
             session['email'] = email
