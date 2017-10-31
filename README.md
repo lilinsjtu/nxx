@@ -1,6 +1,6 @@
 # An app for nxx
-集成mysql
-集成peewee
-集成bootstrap
-集成paginate
-集成cache
+1. mysql
+2. peewee
+3. bootstrap
+4. paginate
+5. cache
